@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import pdf from "../Assets/resume.pdf"
+import pdf from "../Assets/Resume.pdf"
 import pawan from "../Assets/pawan_.jpg"
 import bcet from "../Assets/bcet.jpg"
 import ars from "../Assets/ars.jpg"
