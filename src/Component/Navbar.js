@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link to="/">
             <img className=" h-12 rounded-xl" alt="" src={logo} />
           </Link>
-            <h1 className=" nav_1_text font-serif italic text-4xl text-red-700 font-bold">Pawan Raj Singh</h1>
+            <h1 className=" nav_1_text font-serif text-4xl text-red-700 font-bold">Pawan Raj Singh</h1>
             <div onClick={handleChange} className=" hamburger flex-col hidden">
             <div className=" bg-black w-7 h-1 mb-1"></div>
             <div className=" bg-black w-7 h-1 mb-1"></div>
@@ -51,16 +51,16 @@ export default function Navbar() {
         </div>
         <div  style={{display:mode}} className=" nav_2 w-1/2 bg-slate-100 h-20 flex justify-center gap-6 items-center">
             <Link to="/">
-              <span className="text-xl font-bold hover:text-blue-500 cursor-pointer">Home</span>  
+              <span className="text-xl italic font-bold hover:text-blue-500 cursor-pointer">Home</span>  
             </Link>
             <Link to="/projects">
-              <span className="text-xl font-bold hover:text-blue-500 cursor-pointer">Projects</span>  
+              <span className="text-xl italic font-bold hover:text-blue-500 cursor-pointer">Projects</span>  
             </Link>
             <Link to="/about">
-              <span className="text-xl font-bold hover:text-blue-500 cursor-pointer">About</span>  
+              <span className="text-xl italic font-bold hover:text-blue-500 cursor-pointer">About</span>  
             </Link>
             <Link to="/contact">
-            <span className="text-xl font-bold hover:text-blue-500 cursor-pointer">Contact</span>  
+            <span className="text-xl italic font-bold hover:text-blue-500 cursor-pointer">Contact</span> 
             </Link>
         </div>
     </div>

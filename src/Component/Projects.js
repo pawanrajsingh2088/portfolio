@@ -17,7 +17,7 @@ export default function Projects() {
     <>
       <Navbar/>
       <div className=" project_head w-screen mb-3">
-          <h1 className="flex justify-center text-5xl font-bold text-purple-600 mt-2">My Projects</h1>  
+          <h1 className="flex justify-center font-serif text-5xl font-bold text-rose-600 mt-2">My Projects</h1>  
           <div className=" projects grid justify-evenly grid-cols-3 p-3">
 
             <Link target='_blank' to="https://pawancalculator.web.app/">

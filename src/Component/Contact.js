@@ -78,7 +78,7 @@ export default function Contact() {
       <Navbar />
       <form ref={form} onSubmit={sendEmail}>
         <div className=" contact flex mt-3 flex-col gap-4 h-auto w-3/4 m-auto items-center bg-gray-400 p-8 rounded-3xl">
-          <h1 className="text-3xl font-bold">Contact Us</h1>
+          <h1 className="text-3xl font-serif font-bold">Contact Us</h1>
           <input required name='user_name' id='user_name' value={name} onChange={(e) => { setName(e.target.value) }} className="border-4 w-96 h-12 text-xl font-medium px-2 rounded-2xl border-black" type="text" placeholder='Write Your Name Here' />
           <input required name='user_email' id='user_email' value={email} onChange={(e) => { setEmail(e.target.value) }} className="border-4 w-96 h-12 text-xl font-medium px-2 rounded-2xl border-black" type="email" placeholder='Write Your Email Here' />
           <textarea required value={msg} onChange={(e) => { setMsg(e.target.value) }} className="border-4 w-3/4 text-xl font-medium p-2 rounded-2xl border-black" placeholder='Write Your Feedback here' name="message" id="" cols="70" rows="7"></textarea>
