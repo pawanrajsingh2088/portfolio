@@ -14,7 +14,13 @@
     background-repeat: none;
     background-size: cover;
 }
-   /* Responsive */
+.projects_box{
+    transition: all 0.4s ease-in-out;
+}
+.projects_box:hover{
+    box-shadow: 7px 7px 5px red;
+}
+
 
 @media only screen and (max-width:1220px) {
     .main_text{

@@ -9,7 +9,7 @@ import git from "../Assets/git.png"
 export default function Footer() {
     return (
         <>
-            <div className=" footer flex w-screen items-center justify-evenly gap-40 py-4 bg-yellow-200">
+            <div className=" footer flex w-screen items-center justify-evenly gap-40 py-4 bg-zinc-400">
                 <h1 className=" footer_text text-2xl font-semibold text-gray-800">&copy;All Right Reserved @pawanrajsingh | 2023</h1>
                 <div className=" footer_img flex gap-8">
                     <Link target='_blank' to="https://www.facebook.com/pawanrajsingh2088">
