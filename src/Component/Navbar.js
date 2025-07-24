@@ -38,7 +38,7 @@ export default function Navbar() {
     return (
       <>
     <div className=" nav flex w-screen sticky top-0 left-0 z-10">
-        <div className="nav_1 flex justify-evenly items-center bg-slate-700 h-20 w-1/2">
+        <div className="nav_1 flex justify-evenly items-center bg-slate-900 h-20 w-1/2">
           <Link to="/">
             <img className=" h-12 rounded-xl" alt="" src={logo} />
           </Link>
@@ -49,18 +49,18 @@ export default function Navbar() {
             <div className=" bg-black w-7 h-1 mb-1"></div>
             </div>
         </div>
-        <div  style={{display:mode}} className=" nav_2 w-1/2 bg-slate-700 h-20 flex justify-center gap-6 items-center">
+        <div  style={{display:mode}} className=" nav_2 w-1/2 bg-slate-900 h-20 flex justify-center gap-6 items-center">
             <Link to="/">
-              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 cursor-pointer">Home</span>  
+              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 hover:text-2xl hover:transition-all cursor-pointer">Home</span>  
             </Link>
             <Link to="/projects">
-              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 cursor-pointer">Projects</span>  
+              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 hover:text-2xl hover:transition-all cursor-pointer">Projects</span>  
             </Link>
             <Link to="/about">
-              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 cursor-pointer">About</span>  
+              <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 hover:text-2xl hover:transition-all cursor-pointer">About</span>  
             </Link>
             <Link to="/contact">
-            <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 cursor-pointer">Contact</span> 
+            <span className="text-xl text-slate-50 font-serif font-bold hover:text-blue-500 hover:text-2xl hover:transition-all cursor-pointer">Contact</span> 
             </Link>
         </div>
     </div>

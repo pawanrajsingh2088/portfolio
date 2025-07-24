@@ -12,6 +12,8 @@ import simon from "../Assets/simon.png"
 import weather from "../Assets/weather.png"
 import quiz from "../Assets/quiz.png"
 import blog from "../Assets/bloghub.png"
+import chat from "../Assets/chat.png"
+import movie from "../Assets/movie.png"
 
 export default function Projects() {
   return (
@@ -20,6 +22,24 @@ export default function Projects() {
       <div className=" project_head w-screen mb-3 bg-black">
         <h1 className="flex justify-center font-serif text-5xl font-bold text-white p-4 mb-2">My Projects</h1>
         <div className=" projects grid justify-evenly grid-cols-3 p-3">
+
+          <Link target='_blank' to="https://chat-app-88.netlify.app/">
+            <div className=" projects_box flex flex-col w-96 items-center border-4 border-red-500 p-4 gap-3 rounded-3xl mb-5 bg-slate-800 hover:border-green-500 hover:scale-105 
+                  hover:shadow-2xl hover:shadow-orange-900">
+              <h1 className="font-semibold  text-white text-4xl">Chat App</h1>
+              <p className=" text-xl font-semibold text-white">Skill Used:- ReactJs, Tailwind</p>
+              <img className=" border-4 border-slate-800 w-64 h-44 rounded-3xl" src={chat} alt="" />
+            </div>
+          </Link>
+
+          <Link target='_blank' to="https://movie-search-app-11.netlify.app/">
+            <div className=" projects_box flex flex-col w-96 items-center border-4 border-red-500 p-4 gap-3 rounded-3xl mb-5 bg-slate-800 hover:border-green-500 hover:scale-105 
+                  hover:shadow-2xl hover:shadow-orange-900">
+              <h1 className="font-semibold  text-white text-4xl">Movie Search App</h1>
+              <p className=" text-xl font-semibold text-white">Skill Used:- ReactJs, Rest API, Tailwind</p>
+              <img className=" border-4 border-slate-800 w-64 h-44 rounded-3xl" src={movie} alt="" />
+            </div>
+          </Link>
 
           <Link target='_blank' to="https://bloghub-prs.netlify.app/">
             <div className=" projects_box flex flex-col w-96 items-center border-4 border-red-500 p-4 gap-3 rounded-3xl mb-5 bg-slate-800 hover:border-green-500 hover:scale-105 
@@ -84,32 +104,6 @@ export default function Projects() {
             </div>
           </Link>
 
-          <Link target='_blank' to="https://pawancalculator.web.app/">
-            <div className=" projects_box flex flex-col w-96 items-center border-4 my-5 border-red-500 p-4 gap-3 rounded-3xl bg-slate-800 hover:border-green-500 hover:scale-105 
-                  hover:shadow-2xl hover:shadow-orange-900">
-              <h1 className="font-semibold text-white text-4xl">Calculator</h1>
-              <p className=" text-xl font-semibold text-white">Skill Used:- HTML, CSS & Javascript</p>
-              <img className=" border-4 border-slate-800 w-64 h-44 rounded-3xl" src={calculator} alt="" />
-            </div>
-          </Link>
-
-          <Link target='_blank' to="https://pawanrajsingh2088.github.io/tablepawan/">
-            <div className=" projects_box flex flex-col w-96 items-center border-4 my-5 border-red-500 p-4 gap-3 rounded-3xl bg-slate-800 hover:border-green-500 hover:scale-105 
-                  hover:shadow-2xl hover:shadow-orange-900">
-              <h1 className="font-semibold text-white text-4xl">Table</h1>
-              <p className=" text-xl font-semibold text-white">Skills Used:- HTML, CSS & Javascript</p>
-              <img className=" border-4 border-slate-800 w-64 h-44 rounded-3xl" src={table} alt="" />
-            </div>
-          </Link>
-
-          <Link target='_blank' to="https://pawanrajsingh2088.github.io/bmipawan/">
-            <div className=" projects_box flex flex-col w-96 items-center border-4 my-5 border-red-500 p-4 gap-3 rounded-3xl bg-slate-800 hover:border-green-500 hover:scale-105 
-                  hover:shadow-2xl hover:shadow-orange-900">
-              <h1 className="font-semibold text-white text-4xl">BMI</h1>
-              <p className=" text-xl font-semibold text-white">Skills Used:- HTML, CSS & Javascript</p>
-              <img className=" border-4 border-slate-800 w-64 h-44 rounded-3xl" src={bmi} alt="" />
-            </div>
-          </Link>
 
         </div>
       </div>
